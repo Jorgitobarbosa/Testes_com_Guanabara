@@ -8,9 +8,18 @@ body {
 }
 
 main {
-  background-color: rgb(225, 217, 205);
-  width: 500px;
+  background-color: ghostwhite;
+  width: 550px;
   margin: auto;
   padding: 10px;
   box-shadow: 3px 3px 5px rgba(206, 199, 199, 0.5);
+}
+
+img.lado{
+  float: right;
+}
+
+nav{
+  float:right;
+  
 }
