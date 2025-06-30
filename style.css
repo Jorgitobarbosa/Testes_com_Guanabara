@@ -4,22 +4,81 @@
 }
 
 body {
-  background-color: rgb(72, 72, 126);
+  background-color: rgb(115, 189, 133);
 }
 
 main {
-  background-color: ghostwhite;
-  width: 550px;
+  background-color: rgb(255, 255, 255);
+  width: 50%;
   margin: auto;
   padding: 10px;
   box-shadow: 3px 3px 5px rgba(206, 199, 199, 0.5);
 }
 
-img.lado{
+img.lado {
   float: right;
 }
 
-nav{
-  float:right;
-  
+.navegar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: red;
+  border-radius: 5px;
+  gap: 15px;
+  padding: 10px;
+}
+
+.navegar_home {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: white;
+}
+
+.navegar_home:hover {
+  color: blue;
+}
+
+.navegar_sobre {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: white;
+}
+
+.navegar_sobre:hover {
+  color: blue;
+}
+
+.navegar_link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: white;
+}
+
+.navegar_link:hover {
+  color: blue;
+}
+
+#p1,
+#p2 {
+  color: rgb(39, 3, 3);
+  background-color: pink;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 0px;
+  line-height: 30px;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: green;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 1000px;
+  text-transform: uppercase;
 }

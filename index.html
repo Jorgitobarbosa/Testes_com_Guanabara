@@ -5,25 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Site do curso em video</title>
     <link rel="stylesheet" href="style.css" />
+
+  
   </head>
   <body>
     <main>
       <header>
         <img
+          class="logo_site"
+          id="Logo"
           src="imagens/curso-em-video-cor.png"
           alt="Logo de curso em video"
         />
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">Sobre o curso</a>
-          <a href="#">Links</a>
+        <nav class="navegar">
+          <a class="navegar_home" href="#">Home</a>
+
+          <a class="navegar_sobre" href="#">Sobre o curso</a>
+
+          <a class="navegar_link" href="#">Links</a>
         </nav>
       </header>
       <hr />
       <article>
         <h2>Curso de HTML de graça</h2>
         <img class="lado" src="imagens/curso-html-css.png" alt="" />
-        <p>
+        <p id="p1">
           Este curso é ideal para quem deseja aprender HTML do zero. Você vai
           aprender desde o básico até conceitos mais avançados. Essa é uma ótima
           oportunidade para você se aprofundar na linguagem e criar sites
@@ -35,12 +41,13 @@
 
       <article>
         <h2>Aprenda JavaScript</h2>
+
         <img
           class="lado"
           src="imagens/curso-javascript.png"
           alt="Logo do curso de JavaScript"
         />
-        <p>
+        <p id="p2">
           Aqui você vai aprender a programar páginas web com JavaScript. O curso
           abrange desde o básico, como variáveis e funções, até conceitos mais
           avançados, como manipulação do DOM e eventos. Não perca essa
